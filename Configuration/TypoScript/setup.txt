@@ -1,0 +1,18 @@
+includeLibs.user_Session = EXT:session/Classes/class.userSession.php
+
+lib.setSessionVar = USER_INT
+lib.setSessionVar {
+	userFunc = user_Session->set
+	userFunc {
+		name =
+		value =
+	}
+}
+
+lib.getSessionVar = USER_INT
+lib.getSessionVar {
+	userFunc = user_Session->get
+	userFunc {
+		name =
+	}
+}

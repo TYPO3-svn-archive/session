@@ -94,10 +94,17 @@ class user_Session {
 
 		$name = $this->userFunc['name'];
 		$dontWriteSessionVar = intval($this->userFunc['dontWriteSessionVar']);
+		$emptySessionVar = intval($this->userFunc['emptySessionVar']);
+
 		if (!empty($name) && $dontWriteSessionVar === 0) {
 			$value = $this->userFunc['value'];
 			$GLOBALS['TSFE']->fe_user->setKey('ses', 'tx_session_' . $name, $value);
+		} else {
+			if ($emptySessionVar === 1) {
+				$GLOBALS['TSFE']->fe_user->setKey('ses', 'tx_session_' . $name, '');
+			}
 		}
+
 	}
 
 

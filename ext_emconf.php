@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "session".
 #
-# Auto generated 18-08-2011 12:55
+# Auto generated 18-08-2011 13:15
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -27,7 +27,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearcacheonload' => 0,
 	'lockType' => '',
-	'version' => '1.1.0',
+	'version' => '1.2.0',
 	'loadOrder' => '',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
@@ -40,7 +40,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:8:{s:12:"ext_icon.gif";s:4:"2ed8";s:17:"ext_localconf.php";s:4:"2ec3";s:14:"ext_tables.php";s:4:"9298";s:14:"ext_tables.sql";s:4:"d41d";s:29:"Classes/class.userSession.php";s:4:"6c03";s:28:"Classes/Utility/Settings.php";s:4:"cfbb";s:34:"Configuration/TypoScript/setup.txt";s:4:"d8c1";s:14:"doc/manual.sxw";s:4:"4001";}',
+	'_md5_values_when_last_written' => 'a:8:{s:12:"ext_icon.gif";s:4:"2ed8";s:17:"ext_localconf.php";s:4:"2ec3";s:14:"ext_tables.php";s:4:"9298";s:14:"ext_tables.sql";s:4:"d41d";s:29:"Classes/class.userSession.php";s:4:"b15c";s:28:"Classes/Utility/Settings.php";s:4:"cfbb";s:34:"Configuration/TypoScript/setup.txt";s:4:"d8c1";s:14:"doc/manual.sxw";s:4:"4001";}',
 	'suggests' => array(
 	),
 );

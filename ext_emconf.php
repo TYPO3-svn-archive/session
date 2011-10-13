@@ -18,7 +18,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'author_email' => 'info@professorweb.de',
 	'author_company' => '',
 	'shy' => '',
-	'dependencies' => '',
+	'dependencies' => 'extbase,fluid',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
@@ -34,6 +34,8 @@ $EM_CONF[$_EXTKEY] = array(
 	'constraints' => array(
 		'depends' => array(
 			'typo3' => '4.5.0-0.0.0',
+			'extbase' => '1.3.0-0.0.0',
+			'fluid' => '1.3.0-0.0.0',
 		),
 		'conflicts' => array(
 		),

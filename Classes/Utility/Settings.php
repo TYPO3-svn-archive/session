@@ -64,9 +64,11 @@ class Tx_Session_Utility_Settings {
 	 * @return void
 	 */
 	public function initializeObject() {
-		$configurationManager = t3lib_div::makeInstance('Tx_Extbase_Configuration_ConfigurationManager');
-		$this->injectConfigurationManager($configurationManager);
-		$this->contentObject = $this->configurationManager->getContentObject();
+		/** @var $objectManager Tx_Extbase_Object_ObjectManager */
+		 $objectManager = t3lib_div::makeInstance('Tx_Extbase_Object_ObjectManager');
+		 $configurationManager = $objectManager->get('Tx_Extbase_Configuration_ConfigurationManager');
+		 $this->injectConfigurationManager($configurationManager);
+		 $this->contentObject = $this->configurationManager->getContentObject();
 	}
 
 	/**

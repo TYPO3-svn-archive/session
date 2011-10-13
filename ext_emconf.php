@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "session".
 #
-# Auto generated 13-10-2011 10:39
+# Auto generated 13-10-2011 10:42
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -27,7 +27,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearcacheonload' => 0,
 	'lockType' => '',
-	'version' => '1.2.2',
+	'version' => '1.2.3',
 	'loadOrder' => '',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
